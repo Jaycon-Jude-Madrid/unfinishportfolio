@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.LoadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: black;
+  transform-origin: 0%;
+  z-index: 2;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+/* About me divider*/
+.custom-shape-divider-bottom-1668952110 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1668952110 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 328px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1668952110 .shape-fill {
+  fill: #000000;
+}
